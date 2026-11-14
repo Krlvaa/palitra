@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="240 236 480 640" role="img">
+
+  <defs>
+    <linearGradient id="coat-5camel-detail" x1="0.12" y1="0" x2="0.88" y2="1">
+      <stop offset="0" stop-color="#c6ac8b"/>
+      <stop offset="0.42" stop-color="#B99A72"/>
+      <stop offset="1" stop-color="#897254"/>
+    </linearGradient>
+    <linearGradient id="lapel-5camel-detail" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c0a480"/>
+      <stop offset="1" stop-color="#9f8462"/>
+    </linearGradient>
+    <pattern id="weave-5camel-detail" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+      <line x1="3" y1="0" x2="3" y2="6" stroke="#000000" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-5camel-detail" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="grain-5camel-detail" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="#EDE3D4"/>
+  <rect width="900" height="1200" fill="#DACDBB" opacity="0.55"/>
+  <circle cx="470" cy="470" r="330" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="470" cy="470" r="330" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M0 1078 H900" stroke="#b3a899" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="450" cy="1042" rx="252" ry="26" fill="#6d675e" opacity="0.22" filter="url(#soft-5camel-detail)"/>
+  
+  <g>
+    <path d="M334 344 C 306 356 286 390 280 440 L 258 770 C 255 800 276 814 302 808 L 328 796 L 344 512 Z" fill="url(#coat-5camel-detail)"/>
+    <path d="M566 344 C 594 356 614 390 620 440 L 642 770 C 645 800 624 814 598 808 L 572 796 L 556 512 Z" fill="url(#coat-5camel-detail)"/>
+    <path d="M330 344 C 356 330 384 326 404 324 Q 450 344 496 324 C 516 326 544 330 570 344 L 584 640 L 598 1006 C 516 1024 384 1024 302 1006 L 316 640 Z" fill="url(#coat-5camel-detail)"/>
+    <path d="M414 336 L 450 636 L 486 336 Z" fill="#5d4d39" opacity="0.48"/>
+    <path d="M414 336 L 454 624 L 428 636 L 382 474 L 370 356 Z" fill="url(#lapel-5camel-detail)" stroke="#8d7557" stroke-width="1.5"/>
+    <path d="M486 336 L 446 624 L 472 636 L 518 474 L 530 356 Z" fill="url(#lapel-5camel-detail)" stroke="#8d7557" stroke-width="1.5"/>
+    <path d="M398 328 Q 450 348 502 328 L 506 312 Q 450 332 394 312 Z" fill="#c0a480" stroke="#907859" stroke-width="1.5"/>
+    <path d="M376 366 Q 450 402 524 366" fill="none" stroke="#856f52" stroke-width="1.5" opacity="0.5"/>
+    <path d="M316 612 L 584 612 L 588 650 L 312 650 Z" fill="#947b5b"/>
+    <path d="M316 616 L 584 616" stroke="#cab294" stroke-width="1.5" opacity="0.6"/>
+    <rect x="433" y="606" width="34" height="50" rx="5" fill="none" stroke="#C4AB7E" stroke-width="3"/>
+    <path d="M433 631 L 467 631" stroke="#C4AB7E" stroke-width="3"/>
+    <circle cx="450" cy="692" r="7" fill="#66553f"/>
+    <circle cx="450" cy="692" r="2.5" fill="#d1bca2"/>
+    <circle cx="450" cy="748" r="7" fill="#66553f"/>
+    <circle cx="450" cy="748" r="2.5" fill="#d1bca2"/>
+    <path d="M338 726 L 398 720 L 400 734 L 340 740 Z" fill="#9f8462" stroke="#826c50" stroke-width="1"/>
+    <path d="M562 726 L 502 720 L 500 734 L 560 740 Z" fill="#9f8462" stroke="#826c50" stroke-width="1"/>
+    <path d="M450 652 L 450 1004" stroke="#78644a" stroke-width="1.5" opacity="0.26"/>
+    <path d="M360 872 Q 402 892 440 886" stroke="#6f5c44" stroke-width="2" fill="none" opacity="0.2"/>
+    <path d="M540 872 Q 498 892 460 886" stroke="#6f5c44" stroke-width="2" fill="none" opacity="0.2"/>
+    <path d="M334 344 C 306 356 286 390 280 440 L 258 770" fill="none" stroke="#c7ae8e" stroke-width="1.5" opacity="0.4"/>
+    <path d="M330 344 C 356 330 384 326 404 324 Q 450 344 496 324 C 516 326 544 330 570 344 L 584 640 L 598 1006 C 516 1024 384 1024 302 1006 L 316 640 Z" fill="url(#weave-5camel-detail)" opacity="0.3"/>
+    <path d="M330 344 C 356 330 384 326 404 324 Q 450 344 496 324 C 516 326 544 330 570 344" fill="none" stroke="#c8b091" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  <rect width="900" height="1200" fill="#FFFFFF" opacity="0.03"/>
+  <rect width="900" height="1200" filter="url(#grain-5camel-detail)" opacity="0.06"/>
+</svg>

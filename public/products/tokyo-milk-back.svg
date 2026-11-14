@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img">
+
+  <defs>
+    <linearGradient id="coat-12milk-back" x1="0.12" y1="0" x2="0.88" y2="1">
+      <stop offset="0" stop-color="#ede5d7"/>
+      <stop offset="0.42" stop-color="#E9DFCE"/>
+      <stop offset="1" stop-color="#aca598"/>
+    </linearGradient>
+    <linearGradient id="lapel-12milk-back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ebe2d3"/>
+      <stop offset="1" stop-color="#c7bfb0"/>
+    </linearGradient>
+    <pattern id="weave-12milk-back" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1"/>
+      <line x1="3" y1="0" x2="3" y2="6" stroke="#000000" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="soft-12milk-back" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="grain-12milk-back" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="#E6DED2"/>
+  <rect width="900" height="1200" fill="#CEC3B2" opacity="0.55"/>
+  <circle cx="470" cy="470" r="330" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="470" cy="470" r="330" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M0 1078 H900" stroke="#a9a092" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="450" cy="1042" rx="252" ry="26" fill="#676259" opacity="0.22" filter="url(#soft-12milk-back)"/>
+  
+  <g>
+    <path d="M318 342 C 286 356 264 392 258 444 L 238 782 C 235 810 256 822 284 818 L 314 806 L 332 504 Z" fill="#ddd4c4"/>
+    <path d="M582 342 C 614 356 636 392 642 444 L 662 782 C 665 810 644 822 616 818 L 586 806 L 568 504 Z" fill="#ddd4c4"/>
+    <path d="M318 340 C 344 320 556 320 582 340 L 592 1008 C 515 1024 385 1024 308 1008 Z" fill="url(#coat-12milk-back)"/>
+    <path d="M352 330 Q 450 366 548 330 L 552 312 Q 450 346 348 312 Z" fill="#e9e0cf" stroke="#bab2a5" stroke-width="1.5"/>
+    <path d="M450 360 L 450 1004" stroke="#908a80" stroke-width="2" opacity="0.32"/>
+    <path d="M340 392 Q 450 420 560 392" fill="none" stroke="#979186" stroke-width="1.5" opacity="0.28"/>
+    <path d="M450 902 L 450 1006" stroke="#8c867c" stroke-width="3" opacity="0.3"/>
+    
+    <path d="M318 340 C 344 320 556 320 582 340 L 592 1008 C 515 1024 385 1024 308 1008 Z" fill="url(#weave-12milk-back)" opacity="0.35"/>
+  </g>
+  <rect width="900" height="1200" fill="#FFFFFF" opacity="0.03"/>
+  <rect width="900" height="1200" filter="url(#grain-12milk-back)" opacity="0.06"/>
+</svg>
