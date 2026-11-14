@@ -9,6 +9,8 @@
 **Живой сайт: [palitra-shop.vercel.app](https://palitra-shop.vercel.app)** — бесплатный хостинг
 Vercel Hobby, бесплатный домен и HTTPS.
 
+**Исходный код: [github.com/Krlvaa/palitra](https://github.com/Krlvaa/palitra)**
+
 ---
 
 ## Быстрый старт
